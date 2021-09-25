@@ -20,4 +20,8 @@ public class MainActivity extends AppCompatActivity {
         text.setText("clicked");
     }
 
+    public void ChangeColour(View view) {
+        TextView text = (TextView) findViewById(R.id.textView);
+        text.setTextColor(Color.RED);
+    }
 }
